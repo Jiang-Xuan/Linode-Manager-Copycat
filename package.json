@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clear": "rm -rf dist"
+    "clear": "rm -rf dist",
+    "copy-assets": "./bin/copy-assets.sh",
+    "start": "yarn run copy-assets && node devServer.js",
+    "lint": "eslint --max-warning=0 src test",
+    "lint:fix": "eslint src test --fix"
   },
   "keywords": [],
   "author": "Jiang-Xuan",
