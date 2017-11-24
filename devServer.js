@@ -3,7 +3,7 @@ const process = require('process')
 const express = require('express')
 const webpack = require('webpack')
 const config = require('./webpack.config.dev')
-const mime = require('mime')
+var mime = require('mime')
 
 const app = express()
 const compiler = webpack(config)
