@@ -1,0 +1,1 @@
+This project is copycat of Linode Manager project :).
